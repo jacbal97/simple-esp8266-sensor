@@ -46,7 +46,7 @@ bool connectWiFi(const char* login, const char* pass)
 //connect to wifi and publish data
 bool connect()
 {
-  if(connectWiFi(jaskinia, password) || connectWiFi(fbi, password))
+  if(connectWiFi(WiFI, password) || connectWiFi(WiFI_2, password))
     return false;
 
   client.setServer(mqtt_broker, mqtt_port);
