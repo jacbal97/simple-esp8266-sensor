@@ -10,8 +10,8 @@ const char* WiFi = "WiFi_name";
 const char* WiFi_2 = "Second WiFi";
 const char* password = "password";
 
-const char *mqtt_broker = "serwer";
-const char topic[] = "toppic";
+const char *mqtt_broker = "server";
+const char topic[] = "topic";
 const char mqtt_username[] = "username";
 const char client_id[] = "id";
 const char pass[] = "password";
